@@ -1,0 +1,351 @@
+%\documentclass[landscape,a0b,final,a4resizeable]{a0poster}
+\documentclass[landscape,a0b,final]{a0poster}
+%\documentclass[portrait,a0b,final,a4resizeable]{a0poster}
+%\documentclass[portrait,a0b,final]{a0poster}
+%%% Option "a4resizeable" makes it possible to resize the
+
+%   poster by the command: psresize -pa4 poster.ps poster-a4.ps
+%   For final printing, please remove option "a4resizeable" !!
+
+\usepackage{epsfig}
+\usepackage{multicol}
+\usepackage{pstricks,pst-grad}
+\usepackage{bm}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage[square,comma,numbers]{natbib}
+
+
+\bibliographystyle{ieeetr}
+\renewcommand{\bibsection}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition of some variables and colors
+%\renewcommand{\rho}{\varrho}
+%\renewcommand{\phi}{\varphi}
+\setlength{\columnsep}{3cm}
+\setlength{\columnseprule}{2mm}
+\setlength{\parindent}{0.0cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%               Background                     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% COMMENTED OUT THE BLACK BORDER FOR PRINTING!
+% USE FOR CREATING THE POSTER!
+\newcommand{\background}[3]{
+  \newrgbcolor{cgradbegin}{#1}
+  \newrgbcolor{cgradend}{#2}
+  % \psframe[fillstyle=gradient,gradend=cgradend,
+  % gradbegin=cgradbegin,gradmidpoint=#3](0.,0.)(1.\textwidth,-1.\textheight)
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                Poster                        %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{poster}{
+  \begin{center}
+  \begin{minipage}[c]{0.98\textwidth}
+}{
+  \end{minipage} 
+  \end{center}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                pcolumn                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{pcolumn}[1]{
+  \begin{minipage}{#1\textwidth}
+  \begin{center}
+}{
+  \end{center}
+  \end{minipage}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                pbox                          %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newrgbcolor{lcolor}{0. 0. 0.80}
+\newrgbcolor{gcolor1}{1. 1. 1.}
+\newrgbcolor{gcolor2}{.80 .80 1.}
+\newrgbcolor{newgreen}{.0 .6 .0}
+
+\newcommand{\pbox}[4]{
+\psshadowbox[#3]{
+\begin{minipage}[t][#2][t]{#1}
+#4
+\end{minipage}
+}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                myfig                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \myfig - replacement for \figure
+% necessary, since in multicol-environment 
+% \figure won't work
+
+\newcommand{\myfig}[3][0]{
+\begin{center}
+  \vspace{1.5cm}
+  \includegraphics[width=#3\hsize,angle=#1]{#2}
+  \nobreak\medskip
+\end{center}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                mycaption                     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \mycaption - replacement for \caption
+% necessary, since in multicol-environment \figure and
+% therefore \caption won't work
+
+%\newcounter{figure}
+\setcounter{figure}{1}
+\newcommand{\mycaption}[1]{
+  \vspace{0.5cm}
+  \begin{quote}
+    {{\sc Fig.} \arabic{figure}: #1}
+  \end{quote}
+  \vspace{1cm}
+  \stepcounter{figure}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Begin of Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\background{1.b 1. 1.}{1. 1. 1.}{0.5}
+
+\vspace*{2cm}
+
+
+\newrgbcolor{lightblue}{0. 0. 0.80}
+\newrgbcolor{white}{1. 1. 1.}
+\newrgbcolor{whiteblue}{.90 .90 1.}
+\newrgbcolor{newgreen}{.13 .54 .13}
+
+
+\begin{poster}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Header
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pcolumn}{0.98}
+
+\pbox{0.95\textwidth}{}{linewidth=2mm,framearc=0.3,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{
+
+%%% Unisiegel
+\begin{minipage}[c][11cm][c]{0.1\textwidth}
+  \begin{center}
+%    \includegraphics[width=7cm,angle=0]{gklogo.eps}
+  \end{center}
+\end{minipage}
+%%% Titel
+\begin{minipage}[c][15cm][c]{0.78\textwidth}
+  \begin{center}
+    {\sc \bf \Huge Pulse-shape Effects on the Autler-townes Doublet in Strong-field Ionization of Atomic Hydrogen }\\[8mm]
+    {\bf \LARGE  {\color{red} John Emmons, Sean Buczek, K. Bartschat,} and {\color{newgreen} A. N. Grum-Grzhimailo}\\[5mm]
+    {\bf \Large  \color{red} Department of Physics and Astronomy, Drake University, Des Moines, IA 50311, USA}\\[0mm] 
+    {\bf \Large  \color{newgreen}Institute of Nuclear Physics, Moscow State University, Moscow 119991, Russia}\\[5mm]  
+ {\bf \large Research Supported by the United States National Science Foundation under PHY-1068140}}
+  \end{center}
+\end{minipage}
+%%% GK-Logo
+\begin{minipage}[c][11cm][c]{0.1\textwidth}
+  \begin{center}
+%    \includegraphics[width=7cm,angle=0]{gklogo.eps}
+  \end{center}
+\end{minipage}
+
+}
+\end{pcolumn}
+\end{center}
+
+\vspace*{2.7cm}
+
+%%% Begin of Multicols-Enviroment
+\begin{multicols}{3}
+
+
+%%% Abstract
+\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Abstract}\end{center}}\end{center}
+\vspace{1.25cm}
+{\large \textbf{We have applied a newly developed parallelized computer code to treat the ionization of atomic hydrogen by a strong laser pulse. 
+In particular, we studied the effect of the pulse shape, as well as the peak intensity and the central wavelength, on the theoretical results for the so-called Autler-Townes doublet.  While the splitting is well known for the quasi-static case, the \emph{dynamic (time-dependent)} Stark effect studied here is much less understood. The strong dependence on the laser pulse found in this work is not only surprising, but may also be a limiting factor for calibrating absolute laser intensities.}}
+
+%%% Introduction
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}
+{\Large\bf Introduction and Motivation}\end{center}}\end{center}\vspace{1.25cm}
+
+% \begin{center}
+%   % first argument: eps-file
+%   % second argument: stretching-factor relative to Column-width (<1)
+%   % optional argument: rotation angle (0-360), default=0
+%   \myfig{old-fs.ps}{.6}
+%   \mycaption{Tree-walk algorithm acting on NERSC Project U1 file system with three upgrades; each upgrade increases the number of drives and decreases file system access time.}
+% \end{center}
+
+\begin{itemize}
+\item Very short and intense laser pulses can be used to study the details of (valence) electron interactions in atoms and molecules.
+\item Typical laser intensities in this field range from 10$^{12}$ to 10$^{15}$ W/cm$^2$.
+\item  {\bf \color{newgreen} 10$^{14}$ W/cm$^2$ is a million billion times stronger than the radiation that the Earth 
+receives from the Sun directly above us on a clear day.}
+\item Such intensities can rip electrons away from atoms in several ways:
+\begin{itemize}
+\item {\bf\color{red} Multi-photon ionization}
+\item {\bf\color{newgreen} Above-threshold ionization}
+\item {\bf\color{violet}Field (tunnel) ionization}
+\end{itemize}
+\end{itemize}
+
+\vspace{-6.5truecm}
+
+%\begin{flushright}
+%\begin{enter}
+  % first argument: eps-file
+  % second argument: stretching-factor relative to Column-width (<1)
+  % optional argument: rotation angle (0-360), default=0
+%\moveright5.0truecm\vbox{\myfig{EnergyFig1.eps}{.55}}
+\moveright7.0truecm\vbox{\myfig{fig1-revised.eps}{.35}}
+
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Stark Effect}\end{center}}\end{center}\vspace{1.25cm}
+
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c-spectrum.ps}{1.0}
+  \end{center}
+
+  \begin{center}
+  \myfig{c-spectrum.ps}{1.0}
+  \end{center}
+  \end{multicols}
+  \vspace{-20.00 truemm}
+
+\begin{itemize}
+\item The Stark effect splits up the energetically degenerate (for fixed~$n$) energy levels in atomic
+      hydrogen by the interaction with a strong external electric field.
+\item The energy splitting is proportional to the electric field strength.
+\item For linearly polarized light, we can ``see'' only the two $m=0$ levels.
+\item These levels form the ``Autler-Townes'' doublet in the energy spectrum
+      of the ejected electron.
+\item We investigate this doublet in two-photon ionization, where the central frequency
+      of the laser is tuned in such a way that it either hits (0.375~a.u. = 10.2~eV) or just misses
+      (0.350~a.u.) the $\rm 1s \to 2s,2p$ resonance transition as as stepping stone. 
+\item Also, {\bf\color{newgreen} we vary the splitting by ramping on/off the pulse}. 
+\end{itemize} 
+\begin{center}
+\myfig{Stark.eps}{.40}
+\end{center}
+
+
+\vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Problem}\end{center}}\end{center}\vspace{1.25cm}
+
+% \setlength{\columnseprule}{0pt}
+% \begin{multicols}{2}
+% \begin{center}
+% \myfig{time-to-comp-log.ps}{1.00}
+% \end{center}
+
+% \begin{center}
+% \myfig{time-to-comp-lin.ps}{1.00}
+% \end{center}
+% \end{multicols}
+
+\vspace{-2cm}
+\mycaption{LEFT: Time to completion for analysis of a uniform filesystem tree with uniform branching factor two plotted with \emph{depth}. RIGHT: Time to completion for analysis of a uniform filesystem with branching factor two plotted with \emph{entry counts}.}
+
+  \begin{itemize}
+  \item \textbf{Logarithmic time complexity} when sufficiently scaled. Time to completion depends on the maximum depth of the file system (i.e. most nested directory or file).\\
+  \item Degenerates to linear time complexity in the worst case (same as Tree-walk).
+  \end{itemize}
+
+%%\phantom{xxx}
+
+%%%\vspace{2.0truecm}
+
+%%% Section
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Our Test Case}\end{center}}\end{center}\vspace{1.25cm}
+
+% %%% Figures:
+% \begin{center}
+%   % first argument: eps-file
+%   % second argument: stretching-factor relative to Column-width (<1)
+%   % optional argument: rotation angle (0-360), default=0
+  
+% \vspace{-15.0truemm}
+
+% % \begin{multicols}{2}
+% % \begin{center}  
+% % \myfig{bar.ps}{1.05}
+% % \myfig{scaling.ps}{.950}
+% % \end{center}
+% % \end{multicols}
+% % \vspace{-20.0truemm}
+% % \mycaption{LEFT: Analysis of a constant size file system with varying map and reduce task on a single compute node. RIGHT: Time to completion for the graph reduce algorithm analyzing a uniform file system tree with varying number of computer nodes.}
+  
+%  % \myfig{spectrum-new.eps}{.55}
+
+% \vspace{-1cm}
+
+% \end{center}
+
+  % \begin{itemize}
+  % \item Optimal number of mappers and reducers per compute node is 2 and 6 respectively.
+  % \begin{itemize}
+  % \item This result was expected since compute nodes have 8 processors and Hadoop allows a maximum of 2 mappers and 6 reducers per node.\\
+  % \end{itemize}
+  % \item Tests of scaling were done on an artificial file system.
+  % \begin{itemize}
+  % \item File system was uniform (branching factor 2 and depth 23) to ensure each node had the same amount of work.
+  % \item The algorithm \textbf{scaled almost perfectly} as the number compute nodes increased.\\
+  % \end{itemize}
+  % \item Scaling broke down as many more nodes were added, likely a result of increased communication and set up time.
+  % \end{itemize}
+
+\vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Results and Discussion}\end{center}}\end{center}\vspace{1.25cm}
+            
+  % \begin{itemize}
+  % \item This graph reducing algorithm is superior to Tree-walk is two significant ways:
+  % \begin{enumerate}
+  % \item It can scale to multiple compute nodes; a much cheaper way to scale than with additional disk.
+  % \item It has logarithmic time complexity when sufficiently scaled.\\
+  % \end{enumerate}
+  % \item Can be improved by implementing with Hama, a native parallel graph reduce paradigm, rather than with Hadoop.
+  % \end{itemize}
+
+\vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf References}\end{center}}\end{center}\vspace{1cm}
+
+\nocite{*}
+\bibliography{references}
+
+\end{multicols}
+
+\end{poster}
+
+\end{document}

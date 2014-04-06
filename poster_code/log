@@ -1,0 +1,248 @@
+for fig in spectrum; do \
+		gnuplot -e "datadir='Data/'" $fig.gp; \
+		latex $fig.tex; \
+		dvips $fig.dvi; \
+	done
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./spectrum.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latex209.def
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/tracefnt.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2012/09/15 v1.1b Class to compile TeX sub-files stan
+dalone
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/standalone/standalone.cfg)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo)))
+No file spectrum.aux.
+(./raw_spectrum.tex (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+)) [1] (./spectrum.aux) )
+Output written on spectrum.dvi (1 page, 28000 bytes).
+Transcript written on spectrum.log.
+latex poster.tex
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./poster.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./a0poster.cls
+Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo)) (./a0size.sty))
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvips.def))))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pstricks/pstricks.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+))
+`PSTricks' v2.51  <2014/02/03> (tvz)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.con))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty)
+No file poster.aux.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd)
+<fig1-revised.eps> <Stark.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+(./poster.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+) [1] (./poster.aux) )
+(see the transcript file for additional information)
+Output written on poster.dvi (1 page, 12692 bytes).
+Transcript written on poster.log.
+bibtex poster.aux
+This is BibTeX, Version 0.99d (TeX Live 2013)
+The top-level auxiliary file: poster.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+latex poster.tex
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./poster.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./a0poster.cls
+Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo)) (./a0size.sty))
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvips.def))))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pstricks/pstricks.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+))
+`PSTricks' v2.51  <2014/02/03> (tvz)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.con))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty) (./poster.aux)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd)
+<fig1-revised.eps> <Stark.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+(./poster.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+) [1] (./poster.aux) )
+(see the transcript file for additional information)
+Output written on poster.dvi (1 page, 12692 bytes).
+Transcript written on poster.log.
+dvips poster.dvi 
+ps2pdf poster.ps
+cp poster.pdf output.pdf
+rm -f *.aux *.d *.dvi *.gnuplot *.log *.ps *.table
+rm -f poster.pdf
+cp output.pdf ../poster.pdf
