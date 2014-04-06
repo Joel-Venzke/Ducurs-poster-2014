@@ -1,12 +1,13 @@
 POSTER 	= 	poster
 FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
-			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin
+			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin \
+			overlap
 
 all: poster
 
 poster: pos
 	# remove the extra files when done
-	rm -f *.aux *.d *.dvi *.gnuplot *.log *.ps *.table
+	rm -f *.aux *.d *.dvi *.log *.table
 	rm -f $(POSTER).pdf
 	cp output.pdf ../poster.pdf
 
