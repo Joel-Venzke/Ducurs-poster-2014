@@ -1,5 +1,6 @@
-POSTER = poster
-FIGURES = spectrum
+POSTER 	= 	poster
+FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
+			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin
 
 all: poster
 
@@ -23,8 +24,8 @@ pos: bib
 figs: 
 	for fig in $(FIGURES); do \
 		gnuplot -e "datadir='Data'" $$fig.gp; \
-		latex c-$$fig.tex; \
-		dvips c-$$fig.dvi; \
+		latex c_$$fig.tex; \
+		dvips c_$$fig.dvi; \
 	done
 
 clean:
