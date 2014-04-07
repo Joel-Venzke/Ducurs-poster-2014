@@ -1,7 +1,7 @@
 POSTER 	= 	poster
 FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
 			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin \
-			overlap
+			overlap_350 overlap_375
 
 all: poster
 
