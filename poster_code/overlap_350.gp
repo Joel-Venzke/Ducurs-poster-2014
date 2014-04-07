@@ -15,6 +15,6 @@ set nolabel
 set title '$4 \times 10^{14}\,$W/cm$^2$~~~~~2-36-2~~~~T-T' 
 set key top right spacing 2.2
 #set nokey
-plot datadir . '/T-t__2-36-2__1.0676d-1__0375/overlap.out' u ($1*4.8377e-4):2 t '1s' w l lt 1 lc 1 lw 2,\
-     datadir . '/T-t__2-36-2__1.0676d-1__0375/overlap.out' u ($1*4.8377e-4):3 t '2s' w l lt 1 lc rgb "#009900" lw 2,\
-     datadir . '/T-t__2-36-2__1.0676d-1__0375/overlap.out' u ($1*4.8377e-4):4 t '2p' w l lt 1 lc 3 lw 2
+plot datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):2 t '1s' w l lt 1 lc 1 lw 2,\
+     datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):3 t '2s' w l lt 1 lc rgb "#009900" lw 2,\
+     datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):4 t '2p' w l lt 1 lc 3 lw 2

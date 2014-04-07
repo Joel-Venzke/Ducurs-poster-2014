@@ -1,13 +1,13 @@
 POSTER 	= 	poster
 FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
 			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin \
-			overlap_350 overlap_375 approx_ionization
-
+			overlap_350 overlap_375 approx_ionization \
+			pulse_350_2_36_3 pulse_375_2_36_3
 all: poster
 
 poster: pos
 	# remove the extra files when done
-	rm -f *.aux *.d *.dvi *.log *.table
+	#rm -f *.aux *.d *.dvi *.log *.table
 	rm -f $(POSTER).pdf
 	cp output.pdf ../poster.pdf
 
@@ -30,6 +30,6 @@ figs:
 	done
 
 clean:
-	rm -f *.aux *.d *.dvi *.gnuplot *.log *.ps *.table
+	rm -f *.aux *.d *.dvi *.gnuplot *.log *.table
 	rm -f $(POSTER).pdf
 	rm -f *.pdf
