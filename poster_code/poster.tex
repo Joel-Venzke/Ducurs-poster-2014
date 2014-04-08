@@ -161,7 +161,7 @@
 %%% Titel
 \begin{minipage}[c][15cm][c]{0.78\textwidth}
   \begin{center}
-    {\sc \bf \Huge Pulse-shape Effects on the Autler-Townes Doublet in Strong-field Ionization of Atomic Hydrogen }\\[8mm]
+    {\sc \bf \Huge Pulse-shape Effects on the Autler-Townes Doublet in Strong-Field Ionization of Atomic Hydrogen }\\[8mm]
     {\bf \LARGE  {\color{red} John Emmons, Sean Buczek, K. Bartschat,} and {\color{newgreen} A. N. Grum-Grzhimailo}\\[5mm]
     {\bf \Large  \color{red} Department of Physics and Astronomy, Drake University, Des Moines, IA 50311, USA}\\[0mm] 
     {\bf \Large  \color{newgreen}Institute of Nuclear Physics, Moscow State University, Moscow 119991, Russia}\\[5mm]  
@@ -234,15 +234,15 @@ receives from the Sun directly above us on a clear day.}
 \end{center}
 
 \begin{itemize}
-\item The Stark effect splits up the energetically degenerate (for fixed~$n$) energy levels in atomic
+\item The {\bf\color{red}Stark effect} splits up the energetically degenerate (for fixed~$n$) energy levels in atomic
       hydrogen by the interaction with a strong external electric field.
-\item The energy splitting is proportional to the electric field strength.
+\item {\bf\color{violet}The energy splitting is proportional to the electric field strength.}
 \item For linearly polarized light, we can ``see'' only the two $m=0$ levels.
-\item These levels form the ``Autler-Townes'' doublet in the energy spectrum
+\item These levels form the {\bf\color{newgreen}Autler-Townes} doublet in the energy spectrum
       of the ejected electron.
 \item We investigate this doublet in two-photon ionization, where the central frequency
       of the laser is tuned in such a way that it either hits (0.375~a.u. = 10.2~eV) or just misses
-      (0.350~a.u.) the $\rm 1s \to 2s,2p$ resonance transition as as stepping stone. 
+      (0.350~a.u. = 9.5~eV) the $\rm 1s \to 2s,2p$ resonance transition as as stepping stone. 
 \item Also, {\bf\color{newgreen} we vary the splitting by ramping on/off the pulse}. 
 \end{itemize} 
 
@@ -252,36 +252,6 @@ receives from the Sun directly above us on a clear day.}
 
 \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
                           gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Results}\end{center}}\end{center}
-
-
-  \setlength{\columnsep}{0pt}
-  \setlength{\columnseprule}{0pt}
-  \hspace{-2cm}
-  \begin{multicols}{2}
-  \begin{center}
-  \myfig{c_spectrum_350_2_36_2_highin.ps}{1.0}
-  \end{center}
-
-  \begin{center}
-  \myfig{c_spectrum_350_2_36_2_lowin.ps}{1.0}
-  \end{center}
-  \end{multicols}
-  \vspace{-3.5cm}
-  \setlength{\columnsep}{0pt}
-  \setlength{\columnseprule}{0pt}
-  \hspace{-2cm}
-  \begin{multicols}{2}
-  \begin{center}
-  \myfig{c_spectrum_375_2_36_2_highin.ps}{1.0}
-  \end{center}
-
-  \begin{center}
-  \myfig{c_spectrum_375_2_36_2_lowin.ps}{1.0}
-  \end{center}
-  \end{multicols}
-
-  \vspace{-2cm}
-  \mycaption{These plots illustrate that triplet effect depends on the intensity, not on the energy of the laser pulse. Note, this effect is only present for pulses ending with the $\sin^2$ envelope. This suggests the shape of the field at the end of the pulse is significant.}
 
   \vspace{-2cm}
   \setlength{\columnsep}{0pt}
@@ -293,11 +263,41 @@ receives from the Sun directly above us on a clear day.}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_2_36_3.ps}{1.0}
+  \myfig{c_pulse_350_2_36_2.ps}{1.0}
   \end{center}
   \end{multicols}
   \vspace{-2cm}
-  \mycaption{LEFT: }
+
+  \vspace{-3.5cm}
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}s
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c_fourier_350_10_20_10.ps}{1.0}
+  \end{center}
+
+  \begin{center}
+  \myfig{c_pulse_350_10_20_10.ps}{1.0}
+  \end{center}
+  \end{multicols}
+  \vspace{-2cm}
+
+  \vspace{-3.5cm}
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c_fourier_350_20_0_20.ps}{1.0}
+  \end{center}
+
+  \begin{center}
+  \myfig{c_pulse_350_20_0_20.ps}{1.0}
+  \end{center}
+  \end{multicols}
+  \vspace{-2cm}
+  \mycaption{Plots of the fields }
 
   \vspace{-2cm}
   \setlength{\columnsep}{0pt}
@@ -338,6 +338,34 @@ receives from the Sun directly above us on a clear day.}
   \vspace{-2cm}
   \mycaption{LEFT: }
 
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c_spectrum_350_2_36_2_highin.ps}{1.0}
+  \end{center}
+
+  \begin{center}
+  \myfig{c_spectrum_350_2_36_2_lowin.ps}{1.0}
+  \end{center}
+  \end{multicols}
+  \vspace{-3.5cm}
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c_spectrum_375_2_36_2_highin.ps}{1.0}
+  \end{center}
+
+  \begin{center}
+  \myfig{c_spectrum_375_2_36_2_lowin.ps}{1.0}
+  \end{center}
+  \end{multicols}
+
+  \vspace{-2cm}
+  \mycaption{????These plots illustrate that the triplet effect depends on the intensity, not on the energy of the laser pulse. Note, this effect is only present for pulses ending with the $\sin^2$ envelope. This suggests the shape of the field at the end of the pulse is significant.}
 
 \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
              gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1.25cm}

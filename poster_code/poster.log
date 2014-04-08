@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 12:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,30 +399,40 @@ File: fig1-revised.eps Graphic file (type eps)
 <fig1-revised.eps>
 File: Stark_new.eps Graphic file (type eps)
  <Stark_new.eps>
-File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
- <c_spectrum_350_2_36_2_highin.ps>
-File: c_spectrum_350_2_36_2_lowin.ps Graphic file (type eps)
-
-<c_spectrum_350_2_36_2_lowin.ps>
-File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
- <c_spectrum_375_2_36_2_highin.ps>
-File: c_spectrum_375_2_36_2_lowin.ps Graphic file (type eps)
-
-<c_spectrum_375_2_36_2_lowin.ps>
 File: c_fourier_350_2_36_2.ps Graphic file (type eps)
  <c_fourier_350_2_36_2.ps>
-File: c_pulse_350_2_36_3.ps Graphic file (type eps)
+File: c_pulse_350_2_36_2.ps Graphic file (type eps)
 
-<c_pulse_350_2_36_3.ps>
+<c_pulse_350_2_36_2.ps>
+File: c_fourier_350_10_20_10.ps Graphic file (type eps)
+ <c_fourier_350_10_20_10.ps>
+File: c_pulse_350_10_20_10.ps Graphic file (type eps)
+ <c_pulse_350_10_20_10.ps>
+File: c_fourier_350_20_0_20.ps Graphic file (type eps)
+
+<c_fourier_350_20_0_20.ps>
+File: c_pulse_350_20_0_20.ps Graphic file (type eps)
+ <c_pulse_350_20_0_20.ps>
 File: c_overlap_350_025.ps Graphic file (type eps)
  <c_overlap_350_025.ps>
 File: c_overlap_350_1.ps Graphic file (type eps)
- <c_overlap_350_1.ps>
-File: c_overlap_350_4.ps Graphic file (type eps)
 
-<c_overlap_350_4.ps>
+<c_overlap_350_1.ps>
+File: c_overlap_350_4.ps Graphic file (type eps)
+ <c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
- <c_approx_ionization.ps> (./poster.bbl
+ <c_approx_ionization.ps>
+File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
+
+<c_spectrum_350_2_36_2_highin.ps>
+File: c_spectrum_350_2_36_2_lowin.ps Graphic file (type eps)
+ <c_spectrum_350_2_36_2_lowin.ps>
+File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
+
+<c_spectrum_375_2_36_2_highin.ps>
+File: c_spectrum_375_2_36_2_lowin.ps Graphic file (type eps)
+ <c_spectrum_375_2_36_2_lowin.ps>
+(./poster.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -430,12 +440,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
- 8861 strings out of 493309
- 155157 string characters out of 6137849
- 244356 words of memory out of 5000000
- 12213 multiletter control sequences out of 15000+600000
+ 8869 strings out of 493309
+ 155349 string characters out of 6137849
+ 247654 words of memory out of 5000000
+ 12217 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,10n,52p,528b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,52p,528b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (1 page, 14208 bytes).
+Output written on poster.dvi (1 page, 15656 bytes).
