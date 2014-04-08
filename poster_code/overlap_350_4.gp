@@ -1,5 +1,5 @@
 set term pslatex color 
-set out 'overlap_350.tex'
+set out 'overlap_350_4.tex'
 set ylabel 'probabilities' offset -1.0,0.0
 set xlabel 't [fs]' offset 0.0,-0.5
 set format y '%3.1f'
@@ -7,12 +7,12 @@ set format y '%3.1f'
 set yr [0:1]
 set ytics 0.2
 set mytics 4
-set xr [0.0:65.0]
+set xr [0.0:50.0]
 #set xtics 0.05
 set mxtics 5
 #set format x '%4.2f'
 set nolabel
-set title '$4 \times 10^{14}\,$W/cm$^2$~~~~~2-36-2~~~~T-T' 
+set title '\textbf{9.5235 ev~~~~~$\mathbf{4.00 \times 10^{14}\,}$W/cm$^2$}' 
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):2 t '1s' w l lt 1 lc 1 lw 2,\

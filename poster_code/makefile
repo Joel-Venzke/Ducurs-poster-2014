@@ -1,8 +1,8 @@
 POSTER 	= 	poster
 FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
 			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin \
-			overlap_350 overlap_375 approx_ionization \
-			pulse_350_2_36_3 pulse_375_2_36_3
+			overlap_350_4 overlap_350_1 overlap_350_025 \
+			approx_ionization fourier_350_2_36_2 pulse_350_2_36_3
 all: poster
 
 poster: pos
