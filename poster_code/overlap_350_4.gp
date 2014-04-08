@@ -13,16 +13,16 @@ set format y '%3.1f'
 #set yr [0:1]
 set ytics 0.2
 set mytics 4
-#set xr [0.0:50.0]
+set xr [0.0:18.0]
 #set xtics 0.05
 set mxtics 5
 #set format x '%4.2f'
 set nolabel
 set key top right spacing 2.2
 #set nokey
-plot datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):2 t '1s' w l lt 1 lc 1 lw 2,\
-     datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):3 t '2s' w l lt 1 lc rgb "#009900" lw 2,\
-     datadir . '/T-t__2-36-2__1.0676d-1__0350/overlap.out' u ($1*4.8377e-4):4 t '2p' w l lt 1 lc 3 lw 2
+plot datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):2 t '1s' w l lt 1 lc 1 lw 2,\
+     datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):3 t '2s' w l lt 1 lc rgb "#009900" lw 2,\
+     datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):4 t '2p' w l lt 1 lc 3 lw 2
 
 set size 1.0,0.3
 set origin 0.0,0.625
@@ -31,6 +31,7 @@ set ylabel 'intensity' offset -1.5,0.0
 set format y '%3.1f'
 #set mytics 10
 #set yr [0:1]
+set xr [0.0:18.0]
 set ytics 0.2
 set mytics 4
 #set xr [0.0:50.0]
@@ -41,6 +42,6 @@ set nolabel
 set key top right spacing 2.2
 unset xtics
 #set nokey
-plot datadir . '/Pulse_t-t_2-36-2-350/pulse.out' u 2:5 t '' w l lt 1 lc 3 lw 2
+plot datadir . '/Pulse_s-s_2-36-2-350/pulse.out' u 2:5 t '' w l lt 1 lc 3 lw 2
 
 unset multiplot
