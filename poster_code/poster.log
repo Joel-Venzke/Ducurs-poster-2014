@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  7 APR 2014 00:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  7 APR 2014 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,23 +409,20 @@ File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
 File: c_spectrum_375_2_36_2_lowin.ps Graphic file (type eps)
 
 <c_spectrum_375_2_36_2_lowin.ps>
+File: c_fourier_350_2_36_2.ps Graphic file (type eps)
+ <c_fourier_350_2_36_2.ps>
 File: c_pulse_350_2_36_3.ps Graphic file (type eps)
- <c_pulse_350_2_36_3.ps>
-File: c_pulse_375_2_36_3.ps Graphic file (type eps)
 
-<c_pulse_375_2_36_3.ps>
-File: c_overlap_350.ps Graphic file (type eps)
- <c_overlap_350.ps>
-File: c_overlap_375.ps Graphic file (type eps)
- <c_overlap_375.ps>
+<c_pulse_350_2_36_3.ps>
+File: c_overlap_350_025.ps Graphic file (type eps)
+ <c_overlap_350_025.ps>
+File: c_overlap_350_1.ps Graphic file (type eps)
+ <c_overlap_350_1.ps>
+File: c_overlap_350_4.ps Graphic file (type eps)
+
+<c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
-
-<c_approx_ionization.ps>
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
-
- []
-
-(./poster.bbl
+ <c_approx_ionization.ps> (./poster.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -433,12 +430,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
- 8859 strings out of 493309
- 155096 string characters out of 6137849
- 244645 words of memory out of 5000000
- 12212 multiletter control sequences out of 15000+600000
+ 8861 strings out of 493309
+ 155149 string characters out of 6137849
+ 244352 words of memory out of 5000000
+ 12213 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,10n,52p,528b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,52p,528b,1223s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (1 page, 14388 bytes).
+Output written on poster.dvi (1 page, 14204 bytes).
