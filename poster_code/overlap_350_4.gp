@@ -7,7 +7,7 @@ set format y '%3.1f'
 set yr [0:1]
 set ytics 0.2
 set mytics 4
-set xr [0.0:50.0]
+#set xr [0.0:50.0]
 #set xtics 0.05
 set mxtics 5
 #set format x '%4.2f'
