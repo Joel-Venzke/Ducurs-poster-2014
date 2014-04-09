@@ -179,7 +179,7 @@
 \end{pcolumn}
 \end{center}
 
-\vspace*{2.7cm}
+\vspace*{2.2cm}
 
 %%% Begin of Multicols-Enviroment
 \begin{multicols}{3}
@@ -236,9 +236,32 @@ receives from the Sun directly above us on a clear day.}
 \vfill 
 \columnbreak
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+                          gradangle=0,gradbegin=white,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Numerical Method}\end{center}}\end{center}\vspace{1.25cm}
+
+\begin{itemize}
+\item We start with the {\bf\color{red}Time-Dependent Schr\"{o}dinger Equation}
+\begin{equation}
+{\color{blue}\bm{\hat{H}}\Psi = i\frac{\partial}{\partial t} \Psi}
+\end{equation}
+\item {In the \bf\color{red}Length Form} of the electric dipole operator,
+\begin{equation}
+{\color{blue}\bm{\hat{H}} = -\frac{1}{2} \bm{\nabla}^2 - \frac{1}{r} +r \cos(\vartheta) E(t)}
+\end{equation}
+\item We propagate the initial wavefunction ${\color{blue}{\Psi(\bm{r},t=0)}}$ in time using {\bf \color{newgreen}Finite Differences}. 
+\item We use the {\color{newgreen} Crank-Nicolson Approximation} 
+\begin{equation}
+{\color{blue}\Psi(\bm{r},t+\Delta t) \approx \frac{1-i\bm{\hat{H}}\Delta t/2}{1+i\bm{\hat{H}}\Delta t/2}\Psi(\bm{r},t)}
+\end{equation}
+\item This is an {\color{newgreen}{\bf implicit}} method that allows for large timesteps.
+\end{itemize}
 
 \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Results}\end{center}}\end{center}
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Field}\end{center}}\end{center}
 
   \vspace{-1cm}
   \setlength{\columnsep}{0pt}
@@ -246,11 +269,11 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_2_36_2.ps}{1.0}
+  \myfig{c_pulse_350_2_36_2.ps}{1.0}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_2_36_2.ps}{1.0}
+  \myfig{c_fourier_350_2_36_2.ps}{1.0}
   \end{center}
   \end{multicols}
 
@@ -260,11 +283,11 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}s
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_10_20_10.ps}{1.0}
+  \myfig{c_pulse_350_10_20_10.ps}{1.0}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_10_20_10.ps}{1.0}
+  \myfig{c_fourier_350_10_20_10.ps}{1.0}
   \end{center}
   \end{multicols}
 
@@ -274,16 +297,29 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_20_0_20.ps}{1.0}
+  \myfig{c_pulse_350_20_0_20.ps}{1.0}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_20_0_20.ps}{1.0}
+  \myfig{c_fourier_350_20_0_20.ps}{1.0}
   \end{center}
   \end{multicols}
   % \mycaption{Plots of the fields }
 
-  \vspace{-4.0cm}
+  \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1.25cm}
+
+  \vfill
+  \columnbreak
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+  \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Results}\end{center}}\end{center}\vspace{1.25cm}
+
+  \vspace{-3.5.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
@@ -298,9 +334,6 @@ receives from the Sun directly above us on a clear day.}
   \end{center}
 
   \end{multicols}
-
-  \vfill
-  \columnbreak
 
   \vspace{-4.0cm}
   % \mycaption{LEFT:}
@@ -393,9 +426,6 @@ receives from the Sun directly above us on a clear day.}
 
   % \vspace{-2cm}
   % \mycaption{LEFT: }
-
-\vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1.25cm}
             
 
 \nocite{*}
