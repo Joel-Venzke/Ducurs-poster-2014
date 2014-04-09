@@ -1,7 +1,7 @@
 set term pslatex color 
 set out 'fourier_350_2_36_2.tex'
 set ylabel 'square of Fourier transform' offset -1.0,0.0
-set xlabel '$E$ [atomic units]' offset 0.0,-0.5
+set xlabel '$E$ [a.u.]' offset 0.0,-0.5
 set format y '%3.1f'
 set mytics 10
 #set yr [0:1]

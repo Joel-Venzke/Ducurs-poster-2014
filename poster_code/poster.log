@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 23:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.3.9)  9 APR 2014 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **poster.tex
 (./poster.tex
 LaTeX2e <2011/06/27>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./a0poster.cls
 Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
@@ -221,7 +221,7 @@ erarithmetics.code.tex)))
 )
 \psLoopIndex=\count118
 
-`PSTricks' v2.53a  <2014/03/30> (tvz)
+`PSTricks' v2.51  <2014/02/03> (tvz)
 \pst@dima=\dimen129
 \pst@dimb=\dimen130
 \pst@dimc=\dimen131
@@ -267,10 +267,10 @@ erarithmetics.code.tex)))
 \sh@wgridYunit=\dimen152
 \pst@shift=\dimen153
 )
-File: pstricks.tex 2014/03/30 v2.53a `PSTricks' (tvz,hv)
+File: pstricks.tex 2014/02/03 v2.51 `PSTricks' (tvz,hv)
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
-File: pst-fp.tex 2014/03/30 v2.53a `PST-fp' (hv)
+File: pst-fp.tex 2014/02/03 v2.51 `PST-fp' (hv)
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -387,13 +387,13 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
 LaTeX Font Info:    ... okay on input line 132.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
 LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 204.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
 File: fig1-revised.eps Graphic file (type eps)
 
 <fig1-revised.eps>
@@ -423,16 +423,16 @@ File: c_overlap_350_4.ps Graphic file (type eps)
 <c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
  <c_approx_ionization.ps>
-File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
-
-<c_spectrum_350_2_36_2_highin.ps>
-File: c_spectrum_350_2_36_2_lowin.ps Graphic file (type eps)
- <c_spectrum_350_2_36_2_lowin.ps>
 File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
 
 <c_spectrum_375_2_36_2_highin.ps>
 File: c_spectrum_375_2_36_2_lowin.ps Graphic file (type eps)
  <c_spectrum_375_2_36_2_lowin.ps>
+File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
+
+<c_spectrum_350_2_36_2_highin.ps>
+File: c_spectrum_350_2_36_2_lowin.ps Graphic file (type eps)
+ <c_spectrum_350_2_36_2_lowin.ps>
 File: c_spectrum_350_3_34_3_highin.ps Graphic file (type eps)
 
 <c_spectrum_350_3_34_3_highin.ps>
@@ -444,14 +444,18 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1
 
-] [2] (./poster.aux) ) 
+]
+Overfull \vbox (28.79733pt too high) has occurred while \output is active []
+
+
+[2] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
- 8874 strings out of 493309
- 155483 string characters out of 6137849
- 260088 words of memory out of 5000000
- 12220 multiletter control sequences out of 15000+600000
+ 8870 strings out of 493309
+ 155442 string characters out of 6137843
+ 259312 words of memory out of 5000000
+ 12216 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,10n,52p,528b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (2 pages, 19836 bytes).
+Output written on poster.dvi (2 pages, 20144 bytes).

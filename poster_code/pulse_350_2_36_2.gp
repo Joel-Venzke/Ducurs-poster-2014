@@ -22,7 +22,7 @@ set yr [-0.12:0.12]
 set ytics -0.20,0.10
 set mytics 5
 set format y '\footnotesize %4.1f'
-set xr [16.4:17.6]
+set xr [16.5:17.6]
 set xtics 16.5,1.0,17.5
 set mxtics 10
 set format x '\footnotesize %4.1f'
@@ -41,9 +41,9 @@ set yr [-0.12:0.12]
 set ytics -0.20,0.10
 set mytics 5
 set format y '\footnotesize %4.1f'
-set xr [0:1.2]
-set xtics 0,0.5,1.5
-set mxtics 5
+set xr [0:1.0]
+set xtics 0,1.0,1.0
+set mxtics 10
 set format x '\footnotesize %4.1f'
 set ylabel ''
 set xlabel ''

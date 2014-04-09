@@ -147,6 +147,7 @@
 %%%%%%%%%%%%%%%%%%%%%
 %%% Header
 %%%%%%%%%%%%%%%%%%%%%
+\vspace{-.1cm}
 \begin{center}
 \begin{pcolumn}{0.98}
 
@@ -161,7 +162,7 @@
 %%% Titel
 \begin{minipage}[c][15cm][c]{0.78\textwidth}
   \begin{center}
-    {\sc \bf \Huge Pulse-shape Effects on the Autler-Townes Doublet in Strong-Field Ionization of Atomic Hydrogen }\\[8mm]
+    {\sc \bf \Huge Pulse-Shape Effects on the Autler-Townes Doublet in Strong-Field Ionization of Atomic Hydrogen }\\[8mm]
     {\bf \LARGE  {\color{red} John Emmons, Sean Buczek, K. Bartschat,} and {\color{newgreen} A. N. Grum-Grzhimailo}\\[5mm]
     {\bf \Large  \color{red} Department of Physics and Astronomy, Drake University, Des Moines, IA 50311, USA}\\[0mm] 
     {\bf \Large  \color{newgreen}Institute of Nuclear Physics, Moscow State University, Moscow 119991, Russia}\\[5mm]  
@@ -181,7 +182,7 @@
 
 
 % height between title and the first column
-\vspace*{1.5cm}
+\vspace*{1.0cm}
 
 
 %%% Begin of Multicols-Enviroment
@@ -190,13 +191,13 @@
 
 %%% Abstract
 \begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Abstract}\end{center}}\end{center}
-\vspace{1cm}
+\vspace{0.375cm}
 {\large \textbf{We have applied a newly developed parallelized computer code to treat the ionization of atomic hydrogen by a strong laser pulse. 
 In particular, we studied the effect of the pulse shape, as well as the peak intensity and the central wavelength, on the theoretical results for the so-called Autler-Townes doublet.  While the splitting is well known for the quasi-static case, the \emph{dynamic (time-dependent)} Stark effect studied here is much less understood. The strong dependence on the laser pulse found in this work is not only surprising, but may also be a limiting factor for calibrating absolute laser intensities.}}
 
 %%% Introduction
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}
-{\Large\bf Introduction and Motivation}\end{center}}\end{center}\vspace{1cm}
+\vspace{2.25cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}
+{\Large\bf Introduction and Motivation}\end{center}}\end{center}\vspace{.75cm}
 
 
 \begin{itemize}
@@ -216,8 +217,8 @@ receives from the Sun directly above us on a clear day.}
 
 \moveright6.5truecm\vbox{\myfig{fig1-revised.eps}{.53}}
 
-\vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Stark Effect}\end{center}}\end{center}\vspace{1cm}
+\vspace{1.5cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Stark Effect}\end{center}}\end{center}\vspace{.5cm}
 
 \begin{center}
 \myfig{Stark_new.eps}{.55}
@@ -234,6 +235,8 @@ receives from the Sun directly above us on a clear day.}
       of the laser is tuned in such a way that it either hits (0.375~a.u. = 10.2~eV) or just misses
       (0.350~a.u. = 9.5~eV) the $\rm 1s \to 2s,2p$ resonance transition as as stepping stone. 
 \item Also, {\bf\color{newgreen} we vary the splitting by ramping on/off the pulse}. 
+\item {\bf\color{red}Notation: S (T) = sin$^2$ (trapezoidal) envelope at ramp-on/off.  \\
+\phantom{Notation:} $n_1 - n_2 - n_3$: number of cycles for ramp-on$-$plateau$-$ramp-off}  
 \end{itemize} 
 
 \vfill 
@@ -244,10 +247,12 @@ receives from the Sun directly above us on a clear day.}
 
 
 \vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-                          gradangle=0,gradbegin=white,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Numerical Method}\end{center}}\end{center}\vspace{1cm}
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Numerical Method}\end{center}}\end{center}\vspace{0.375cm}
 
 \begin{itemize}
 \item We start with the {\bf\color{red}Time-Dependent Schr\"{o}dinger Equation}
+
+\vspace{-.5cm}
 \begin{equation}
 {\color{blue}\bm{\hat{H}}\Psi = i\frac{\partial}{\partial t} \Psi}
 \end{equation}
@@ -255,28 +260,31 @@ receives from the Sun directly above us on a clear day.}
 \begin{equation}
 {\color{blue}\bm{\hat{H}} = -\frac{1}{2} \bm{\nabla}^2 - \frac{1}{r} +r \cos(\vartheta) E(t)}
 \end{equation}
+\vspace{-.5cm}
 \item We propagate the initial wavefunction ${\color{blue}{\Psi(\bm{r},t=0)}}$ in time using {\bf \color{newgreen}Finite Differences}. 
-\item We use the {\color{newgreen} Crank-Nicolson Approximation} 
+\item We use the {\bf \color{newgreen} Crank-Nicolson Approximation} 
+\vspace{-.5cm}
 \begin{equation}
 {\color{blue}\Psi(\bm{r},t+\Delta t) \approx \frac{1-i\bm{\hat{H}}\Delta t/2}{1+i\bm{\hat{H}}\Delta t/2}\Psi(\bm{r},t)}
 \end{equation}
+\vspace{-.5cm}
 \item This is an {\color{newgreen}{\bf implicit}} method that allows for large timesteps.
 \end{itemize}
 
-\vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+\vspace{0.375cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
                           gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Field}\end{center}}\end{center}
 
-  \vspace{-1cm}
+  \vspace{-0.75cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_pulse_350_2_36_2.ps}{.90}
+  \myfig{c_pulse_350_2_36_2.ps}{.85}
   \end{center}
 
   \begin{center}
-  \myfig{c_fourier_350_2_36_2.ps}{.90}
+  \myfig{c_fourier_350_2_36_2.ps}{.85}
   \end{center}
   \end{multicols}
 
@@ -286,11 +294,11 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}s
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_pulse_350_10_20_10.ps}{.90}
+  \myfig{c_pulse_350_10_20_10.ps}{.85}
   \end{center}
 
   \begin{center}
-  \myfig{c_fourier_350_10_20_10.ps}{.90}
+  \myfig{c_fourier_350_10_20_10.ps}{.85}
   \end{center}
   \end{multicols}
 
@@ -300,18 +308,16 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_pulse_350_20_0_20.ps}{.90}
+  \myfig{c_pulse_350_20_0_20.ps}{.85}
   \end{center}
 
   \begin{center}
-  \myfig{c_fourier_350_20_0_20.ps}{.90}
+  \myfig{c_fourier_350_20_0_20.ps}{.85}
   \end{center}
   \end{multicols}
-  % \mycaption{Plots of the fields }
-
 
   \begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1cm}
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{0.375cm}
 
 \begin{itemize}
 \item The pulse-shape effect only occurs at the {\bf\color{red} highest intensity studied (4.0 $\bm{\times}$ 10$^{\bf 14}$ W/cm$^{\bf 2}$)}.
@@ -349,7 +355,7 @@ receives from the Sun directly above us on a clear day.}
 
   \end{multicols}
 
-  \vspace{-4.0cm}
+  \vspace{-3.0cm}
   % \mycaption{LEFT:}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
@@ -364,20 +370,7 @@ receives from the Sun directly above us on a clear day.}
   \end{multicols}
   % \mycaption{LEFT: }
 
-  \vspace{-4.0cm}
-  \setlength{\columnsep}{0pt}
-  \setlength{\columnseprule}{0pt}
-  \hspace{-2cm}
-  \begin{multicols}{2}
-  \begin{center}
-  \myfig{c_spectrum_350_2_36_2_highin.ps}{1.0}
-  \end{center}
-
-  \begin{center}
-  \myfig{c_spectrum_350_2_36_2_lowin.ps}{1.0}
-  \end{center}
-  \end{multicols}
-  \vspace{-4.0cm}
+  \vspace{-3.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
@@ -390,8 +383,21 @@ receives from the Sun directly above us on a clear day.}
   \myfig{c_spectrum_375_2_36_2_lowin.ps}{1.0}
   \end{center}
   \end{multicols}
+  \vspace{-3.0cm}
+  \setlength{\columnsep}{0pt}
+  \setlength{\columnseprule}{0pt}
+  \hspace{-2cm}
+  \begin{multicols}{2}
+  \begin{center}
+  \myfig{c_spectrum_350_2_36_2_highin.ps}{1.0}
+  \end{center}
 
-  \vspace{-4.0cm}
+  \begin{center}
+  \myfig{c_spectrum_350_2_36_2_lowin.ps}{1.0}
+  \end{center}
+  \end{multicols}
+
+  \vspace{-3.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
@@ -404,40 +410,6 @@ receives from the Sun directly above us on a clear day.}
   \myfig{c_spectrum_350_4_32_4_highin.ps}{1.0}
   \end{center}
   \end{multicols}
-
-  % \vspace{-2cm}
-  % \mycaption{????}
-
-
-  % \setlength{\columnsep}{0pt}
-  % \setlength{\columnseprule}{0pt}
-  % \hspace{-2cm}
-  % \begin{multicols}{2}
-  % \begin{center}
-  % \myfig{c_spectrum_350_3_34_3.ps}{1.0}
-  % \end{center}
-
-  % \begin{center}
-  % \myfig{c_spectrum_350_4_32_4.ps}{1.0}
-  % \end{center}
-  % \end{multicols}
-  % \vspace{-3.5cm}
-  % \setlength{\columnsep}{0pt}
-  % \setlength{\columnseprule}{0pt}
-  % \hspace{-2cm}
-  % \begin{multicols}{2}
-  % \begin{center}
-  % \myfig{c_spectrum_350_10_20_10.ps}{1.0}
-  % \end{center}
-
-  % \begin{center}
-  % \myfig{c_spectrum_350_20_0_20.ps}{1.0}
-  % \end{center}
-  % \end{multicols}
-
-  % \vspace{-2cm}
-  % \mycaption{LEFT: }
-            
 
 \nocite{*}
 \bibliography{references}

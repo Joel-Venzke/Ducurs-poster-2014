@@ -1,7 +1,7 @@
 set term pslatex color 
 set out 'spectrum_375_2_36_2_lowin.tex'
-set ylabel '$dP/dE$ [atomic units]' offset -1.0,0.0
-set xlabel '$E$ [atomic units]' offset 0.0,-0.5
+set ylabel '$dP/dE$ [a.u.]' offset -1.0,0.0
+set xlabel '$E$ [a.u.s]' offset 0.0,-0.5
 set format y '%6.2f'
 set mytics 10
 #set yr [0:1.2]
@@ -15,7 +15,7 @@ set mxtics 5
 set format x '%4.2f'
 set nolabel
 #set label '$0.25 \times 10^{14}\,$W/cm$^2$' at 1200,0.1
-set title '\textbf{10.2 eV~~~~$\mathbf{0.25 \times 10^{14}\,}$W/cm$^2$~~~2-36-2}' 
+set title '\textbf{2-36-2~~~~$\mathbf{0.25 \times 10^{14}\,}$W/cm$^2$~~~10.2 eV}' 
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/S-s__2-36-2__0.2669d-1__0375/betas.out' u 1:2 t '\tt S-S' w l lt 1 lc 1 lw 2,\
