@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,40 +387,39 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
 LaTeX Font Info:    ... okay on input line 132.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
 LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 200.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
 File: fig1-revised.eps Graphic file (type eps)
 
 <fig1-revised.eps>
 File: Stark_new.eps Graphic file (type eps)
  <Stark_new.eps>
-File: c_pulse_350_2_36_2.ps Graphic file (type eps)
- <c_pulse_350_2_36_2.ps>
 File: c_fourier_350_2_36_2.ps Graphic file (type eps)
+ <c_fourier_350_2_36_2.ps>
+File: c_pulse_350_2_36_2.ps Graphic file (type eps)
 
-<c_fourier_350_2_36_2.ps>
+<c_pulse_350_2_36_2.ps>
+File: c_fourier_350_10_20_10.ps Graphic file (type eps)
+ <c_fourier_350_10_20_10.ps>
 File: c_pulse_350_10_20_10.ps Graphic file (type eps)
  <c_pulse_350_10_20_10.ps>
-File: c_fourier_350_10_20_10.ps Graphic file (type eps)
-
-<c_fourier_350_10_20_10.ps>
-File: c_pulse_350_20_0_20.ps Graphic file (type eps)
- <c_pulse_350_20_0_20.ps>
 File: c_fourier_350_20_0_20.ps Graphic file (type eps)
 
 <c_fourier_350_20_0_20.ps>
+File: c_pulse_350_20_0_20.ps Graphic file (type eps)
+ <c_pulse_350_20_0_20.ps>
 File: c_overlap_350_025.ps Graphic file (type eps)
  <c_overlap_350_025.ps>
 File: c_overlap_350_1.ps Graphic file (type eps)
- <c_overlap_350_1.ps>
-File: c_overlap_350_4.ps Graphic file (type eps)
 
-<c_overlap_350_4.ps>
+<c_overlap_350_1.ps>
+File: c_overlap_350_4.ps Graphic file (type eps)
+ <c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
  <c_approx_ionization.ps>
 File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
@@ -444,15 +443,11 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1
 
-]
-Overfull \vbox (41.29079pt too high) has occurred while \output is active []
-
-
-[2] (./poster.aux) ) 
+] [2] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
  8874 strings out of 493309
  155483 string characters out of 6137849
- 258081 words of memory out of 5000000
+ 260088 words of memory out of 5000000
  12220 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191

@@ -25,7 +25,9 @@ pos: bib
 	dvips $(POSTER).dvi 
 	ps2pdf $(POSTER).ps
 	cp $(POSTER).pdf output.pdf
-#	pdftk $(POSTER).pdf cat 2- output output.pdf
+	# uncomment if the poster is being pushed to a second page
+	#	remove the first blank page
+	pdftk $(POSTER).pdf cat 2- output output.pdf
 
 figs: 
 	for fig in $(FIGURES); do \
