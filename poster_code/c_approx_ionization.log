@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,17 +140,27 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
- (./approx_ionization.tex) [1
+ (./approx_ionization.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 2355.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2355.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 2355.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)) [1
 
 ]
 (./c_approx_ionization.aux) ) 
 Here is how much of TeX's memory you used:
- 771 strings out of 493309
- 11899 string characters out of 6137849
- 62387 words of memory out of 5000000
- 4278 multiletter control sequences out of 15000+600000
- 4236 words of font info for 16 fonts, out of 8000000 for 9000
+ 823 strings out of 493309
+ 12680 string characters out of 6137849
+ 84628 words of memory out of 5000000
+ 4308 multiletter control sequences out of 15000+600000
+ 10513 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 34i,4n,56p,198b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,56p,246b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c_approx_ionization.dvi (1 page, 216 bytes).
+Output written on c_approx_ionization.dvi (1 page, 31808 bytes).

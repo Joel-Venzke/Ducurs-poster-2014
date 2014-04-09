@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,53 +414,48 @@ File: c_pulse_350_20_0_20.ps Graphic file (type eps)
 File: c_fourier_350_20_0_20.ps Graphic file (type eps)
 
 <c_fourier_350_20_0_20.ps>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   .
-l.322   \vspace{-3.5.0cm}
-                         
-? 
 File: c_overlap_350_025.ps Graphic file (type eps)
-<c_overlap_350_025.ps>
+ <c_overlap_350_025.ps>
 File: c_overlap_350_1.ps Graphic file (type eps)
  <c_overlap_350_1.ps>
 File: c_overlap_350_4.ps Graphic file (type eps)
- <c_overlap_350_4.ps>
+
+<c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
-
-<c_approx_ionization.ps>
+ <c_approx_ionization.ps>
 File: c_spectrum_350_2_36_2_highin.ps Graphic file (type eps)
- <c_spectrum_350_2_36_2_highin.ps>
+
+<c_spectrum_350_2_36_2_highin.ps>
 File: c_spectrum_350_2_36_2_lowin.ps Graphic file (type eps)
-
-<c_spectrum_350_2_36_2_lowin.ps>
+ <c_spectrum_350_2_36_2_lowin.ps>
 File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
- <c_spectrum_375_2_36_2_highin.ps>
+
+<c_spectrum_375_2_36_2_highin.ps>
 File: c_spectrum_375_2_36_2_lowin.ps Graphic file (type eps)
-
-<c_spectrum_375_2_36_2_lowin.ps>
+ <c_spectrum_375_2_36_2_lowin.ps>
 File: c_spectrum_350_3_34_3_highin.ps Graphic file (type eps)
- <c_spectrum_350_3_34_3_highin.ps>
-File: c_spectrum_350_4_32_4_highin.ps Graphic file (type eps)
 
-<c_spectrum_350_4_32_4_highin.ps> (./poster.bbl
+<c_spectrum_350_3_34_3_highin.ps>
+File: c_spectrum_350_4_32_4_highin.ps Graphic file (type eps)
+ <c_spectrum_350_4_32_4_highin.ps>
+(./poster.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1
 
 ]
-Overfull \vbox (432.51717pt too high) has occurred while \output is active []
+Overfull \vbox (41.29079pt too high) has occurred while \output is active []
 
 
 [2] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
  8874 strings out of 493309
  155483 string characters out of 6137849
- 255140 words of memory out of 5000000
+ 258081 words of memory out of 5000000
  12220 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,10n,52p,528b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,52p,528b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (2 pages, 18884 bytes).
+Output written on poster.dvi (2 pages, 19836 bytes).
