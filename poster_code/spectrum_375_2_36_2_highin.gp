@@ -15,7 +15,7 @@ set mxtics 5
 set format x '%4.2f'
 set nolabel
 #set label '$4 \times 10^{14}\,$W/cm$^2$' at 1200,0.1
-set title '\textbf{10.2 ev~~~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$}' 
+set title '\textbf{10.2 eV~~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$~~~2-36-2}' 
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/S-s__2-36-2__1.0676d-1__0375/betas.out' u 1:2 t '\tt S-S' w l lt 1 lc 1 lw 2,\

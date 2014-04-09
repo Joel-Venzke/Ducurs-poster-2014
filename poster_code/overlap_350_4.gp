@@ -1,7 +1,7 @@
 set term pslatex color 
 set out 'overlap_350_4.tex'
 
-set multiplot layout 2,0 title '\textbf{9.5235 ev~~~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$}
+set multiplot layout 2,0 title '\textbf{9.5 eV~~~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$}
 
 set size 1.0,0.65
 set origin 0.0,0.0
