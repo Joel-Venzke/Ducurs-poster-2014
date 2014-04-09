@@ -179,7 +179,8 @@
 \end{pcolumn}
 \end{center}
 
-\vspace*{2.7cm}
+% height between title and the first column
+\vspace*{1.5cm}
 
 %%% Begin of Multicols-Enviroment
 \begin{multicols}{3}
@@ -187,13 +188,13 @@
 
 %%% Abstract
 \begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Abstract}\end{center}}\end{center}
-\vspace{1.25cm}
+\vspace{1cm}
 {\large \textbf{We have applied a newly developed parallelized computer code to treat the ionization of atomic hydrogen by a strong laser pulse. 
 In particular, we studied the effect of the pulse shape, as well as the peak intensity and the central wavelength, on the theoretical results for the so-called Autler-Townes doublet.  While the splitting is well known for the quasi-static case, the \emph{dynamic (time-dependent)} Stark effect studied here is much less understood. The strong dependence on the laser pulse found in this work is not only surprising, but may also be a limiting factor for calibrating absolute laser intensities.}}
 
 %%% Introduction
 \vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}
-{\Large\bf Introduction and Motivation}\end{center}}\end{center}\vspace{1.25cm}
+{\Large\bf Introduction and Motivation}\end{center}}\end{center}\vspace{1cm}
 
 
 \begin{itemize}
@@ -214,7 +215,7 @@ receives from the Sun directly above us on a clear day.}
 \moveright6.5truecm\vbox{\myfig{fig1-revised.eps}{.53}}
 
 \vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Stark Effect}\end{center}}\end{center}\vspace{.75cm}
+                          gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf The Stark Effect}\end{center}}\end{center}\vspace{1cm}
 
 \begin{center}
 \myfig{Stark_new.eps}{.55}
@@ -237,7 +238,7 @@ receives from the Sun directly above us on a clear day.}
 \columnbreak
 
 \vspace{2cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-                          gradangle=0,gradbegin=white,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Numerical Method}\end{center}}\end{center}\vspace{1.25cm}
+                          gradangle=0,gradbegin=white,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Numerical Method}\end{center}}\end{center}\vspace{1cm}
 
 \begin{itemize}
 \item We start with the {\bf\color{red}Time-Dependent Schr\"{o}dinger Equation}
@@ -265,45 +266,53 @@ receives from the Sun directly above us on a clear day.}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_2_36_2.ps}{1.0}
+  \myfig{c_fourier_350_2_36_2.ps}{.90}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_2_36_2.ps}{1.0}
+  \myfig{c_pulse_350_2_36_2.ps}{.90}
   \end{center}
   \end{multicols}
 
-  \vspace{-4.0cm}
+  \vspace{-2.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}s
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_10_20_10.ps}{1.0}
+  \myfig{c_fourier_350_10_20_10.ps}{.90}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_10_20_10.ps}{1.0}
+  \myfig{c_pulse_350_10_20_10.ps}{.90}
   \end{center}
   \end{multicols}
 
-  \vspace{-4.0cm}
+  \vspace{-2.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
   \begin{multicols}{2}
   \begin{center}
-  \myfig{c_fourier_350_20_0_20.ps}{1.0}
+  \myfig{c_fourier_350_20_0_20.ps}{.90}
   \end{center}
 
   \begin{center}
-  \myfig{c_pulse_350_20_0_20.ps}{1.0}
+  \myfig{c_pulse_350_20_0_20.ps}{.90}
   \end{center}
   \end{multicols}
   % \mycaption{Plots of the fields }
 
-  \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
-             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1.25cm}
+  \begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
+             gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Conclusions}\end{center}}\end{center}\vspace{1cm}
+
+\begin{itemize}
+\item The pulse-shape effect only occurs at the {\bf\color{red} highest intensity studied (4.0 $\bm{\times}$ 10$^{\bf 14}$ W/cm$^{\bf 2}$)}.
+\item It also only occurs {\bf\color{red} if the pulse is ramped on/off very rapidly}.
+\item {\bf\color{red} The ramp-off is far more important than the ramp-on}.
+\item This suggests possible {\bf\color{blue} interference effects between electrons ejected at different times}.
+\item {\bf\color{newgreen} Further work is needed to explain the details.}
+\end{itemize}
 
   \vfill
   \columnbreak
@@ -311,7 +320,7 @@ receives from the Sun directly above us on a clear day.}
   \vspace{1cm}\begin{center}\pbox{0.8\columnwidth}{}{linewidth=2mm,framearc=0.1,linecolor=lightblue,fillstyle=gradient,
              gradangle=0,gradbegin=whiteblue,gradend=whiteblue,gradmidpoint=1.0,framesep=1em}{\begin{center}{\Large\bf Results}\end{center}}\end{center}\vspace{1.25cm}
 
-  \vspace{-4.0cm}
+  \vspace{-2.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
@@ -368,11 +377,8 @@ receives from the Sun directly above us on a clear day.}
   \myfig{c_spectrum_375_2_36_2_lowin.ps}{1.0}
   \end{center}
   \end{multicols}
-  \vspace{-2.5cm}
-  \hrulefill
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \vspace{-2.0cm}
+  \vspace{-4.0cm}
   \setlength{\columnsep}{0pt}
   \setlength{\columnseprule}{0pt}
   \hspace{-2cm}
