@@ -7,7 +7,7 @@ set mytics 10
 #set yr [0:1]
 set log y
 #set ytics 0.2
-set mytics 4
+set mytics 10
 set yr [0.02:100]
 set xr [0.0:0.7]
 #set xtics 0.05
