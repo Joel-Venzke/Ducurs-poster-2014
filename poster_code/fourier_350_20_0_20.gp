@@ -7,14 +7,14 @@ set mytics 10
 #set yr [0:1]
 set log y
 #set ytics 0.2
-set mytics 4
+set mytics 10
 set yr [0.02:100]
 set xr [0.0:0.7]
 #set xtics 0.05
 set mxtics 5
 #set format x '%4.2f'
 set nolabel
-set title '\textbf{???}' 
+set title '\bf 20-0-20~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$' 
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/Pulse_s-s_20-0-20-350/fieldFT.out' u 2:5 t '\tt S-S' w l lt 1 lc 3 lw 2,\
