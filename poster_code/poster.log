@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.3.9)  8 APR 2014 20:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.3.9)  8 APR 2014 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -443,14 +443,18 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1
 
-] (./poster.aux) ) 
+]
+Overfull \vbox (127.74355pt too high) has occurred while \output is active []
+
+
+[2] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
- 8869 strings out of 493309
- 155434 string characters out of 6137843
- 247266 words of memory out of 5000000
- 12215 multiletter control sequences out of 15000+600000
+ 8870 strings out of 493309
+ 155442 string characters out of 6137843
+ 256184 words of memory out of 5000000
+ 12216 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,10n,52p,528b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,52p,528b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (1 page, 15644 bytes).
+Output written on poster.dvi (2 pages, 18168 bytes).
