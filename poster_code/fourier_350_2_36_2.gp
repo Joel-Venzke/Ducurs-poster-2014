@@ -1,6 +1,6 @@
 set term pslatex color 
 set out 'fourier_350_2_36_2.tex'
-set ylabel 'Intensity a.u.' offset -1.0,0.0
+set ylabel 'square of Fourier transform' offset -1.0,0.0
 set xlabel '$E$ [atomic units]' offset 0.0,-0.5
 set format y '%3.1f'
 set mytics 10
