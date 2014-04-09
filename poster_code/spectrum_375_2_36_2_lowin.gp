@@ -1,7 +1,7 @@
 set term pslatex color 
 set out 'spectrum_375_2_36_2_lowin.tex'
 set ylabel '$dP/dE$ [a.u.]' offset -1.0,0.0
-set xlabel '$E$ [a.u.s]' offset 0.0,-0.5
+set xlabel '$E$ [a.u]' offset 0.0,-0.5
 set format y '%6.2f'
 set mytics 10
 #set yr [0:1.2]

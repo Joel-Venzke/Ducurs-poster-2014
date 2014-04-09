@@ -1,7 +1,7 @@
 set term pslatex color 
 set out 'pulse_350_2_36_2.tex'
 set ylabel 'electric field [a.u.]' offset -0.0,0.0
-set xlabel 'time [fs]' offset 0.0,-0.5
+set xlabel 't [fs]' offset 0.0,-0.5
 set multiplot
 set xr [0:18]
 set xtics 2
