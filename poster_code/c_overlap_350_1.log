@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 23:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -157,7 +157,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 Here is how much of TeX's memory you used:
  823 strings out of 493309
  12632 string characters out of 6137849
- 255028 words of memory out of 5000000
+ 255030 words of memory out of 5000000
  4308 multiletter control sequences out of 15000+600000
  10513 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191

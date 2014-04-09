@@ -27,7 +27,7 @@ plot datadir . '/S-s__2-36-2__0.5338d-1__0350/overlap.out' u ($1*.000120622):2 t
 set size 1.0,0.3
 set origin 0.0,0.625
 unset xlabel
-set ylabel 'intensity' offset -1.0,0.0
+set ylabel 'field [a.u.]' offset -1.0,0.0
 set format y '%3.1f'
 #set mytics 10
 #set yr [0:1]
