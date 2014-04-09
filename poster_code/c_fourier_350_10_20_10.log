@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.3.9)  8 APR 2014 15:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  8 APR 2014 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **c_fourier_350_10_20_10.tex
 (./c_fourier_350_10_20_10.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/latex209.def
 File: latex209.def 1998/05/13 v0.52 Standard LaTeX file
 
@@ -156,8 +156,8 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 (./c_fourier_350_10_20_10.aux) ) 
 Here is how much of TeX's memory you used:
  823 strings out of 493309
- 12716 string characters out of 6137843
- 102045 words of memory out of 5000000
+ 12716 string characters out of 6137849
+ 102060 words of memory out of 5000000
  4308 multiletter control sequences out of 15000+600000
  10513 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191

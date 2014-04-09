@@ -5,7 +5,10 @@ FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
 			approx_ionization fourier_350_2_36_2 pulse_350_2_36_2 \
 			fourier_350_7_26_7 pulse_350_7_26_7 \
 			fourier_350_10_20_10 pulse_350_10_20_10 \
-			fourier_350_20_0_20 pulse_350_20_0_20
+			fourier_350_20_0_20 pulse_350_20_0_20 \
+			spectrum_350_3_34_3 spectrum_350_4_32_4 \
+			spectrum_350_10_20_10 spectrum_350_20_0_20 
+			
 all: poster
 
 poster: pos
