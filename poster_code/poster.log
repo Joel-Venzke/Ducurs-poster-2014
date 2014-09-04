@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.3.9)  9 APR 2014 11:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2014.4.6)  26 AUG 2014 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **poster.tex
 (./poster.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./a0poster.cls
 Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
@@ -221,7 +221,7 @@ erarithmetics.code.tex)))
 )
 \psLoopIndex=\count118
 
-`PSTricks' v2.51  <2014/02/03> (tvz)
+`PSTricks' v2.53a  <2014/03/30> (tvz)
 \pst@dima=\dimen129
 \pst@dimb=\dimen130
 \pst@dimc=\dimen131
@@ -267,10 +267,10 @@ erarithmetics.code.tex)))
 \sh@wgridYunit=\dimen152
 \pst@shift=\dimen153
 )
-File: pstricks.tex 2014/02/03 v2.51 `PSTricks' (tvz,hv)
+File: pstricks.tex 2014/03/30 v2.53a `PSTricks' (tvz,hv)
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
-File: pst-fp.tex 2014/02/03 v2.51 `PST-fp' (hv)
+File: pst-fp.tex 2014/03/30 v2.53a `PST-fp' (hv)
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -409,18 +409,8 @@ File: c_pulse_350_10_20_10.ps Graphic file (type eps)
 File: c_fourier_350_10_20_10.ps Graphic file (type eps)
 
 <c_fourier_350_10_20_10.ps>
-File: c_pulse_350_20_0_20.ps Graphic file (type eps)
- <c_pulse_350_20_0_20.ps>
-File: c_fourier_350_20_0_20.ps Graphic file (type eps)
-
-<c_fourier_350_20_0_20.ps>
-File: c_overlap_350_025.ps Graphic file (type eps)
- <c_overlap_350_025.ps>
-File: c_overlap_350_1.ps Graphic file (type eps)
- <c_overlap_350_1.ps>
 File: c_overlap_350_4.ps Graphic file (type eps)
-
-<c_overlap_350_4.ps>
+ <c_overlap_350_4.ps>
 File: c_approx_ionization.ps Graphic file (type eps)
  <c_approx_ionization.ps>
 File: c_spectrum_375_2_36_2_highin.ps Graphic file (type eps)
@@ -444,18 +434,14 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1
 
-]
-Overfull \vbox (28.79733pt too high) has occurred while \output is active []
-
-
-[2] (./poster.aux) ) 
+] (./poster.aux) ) 
 Here is how much of TeX's memory you used:
- 8870 strings out of 493309
- 155442 string characters out of 6137843
- 259312 words of memory out of 5000000
+ 8866 strings out of 493309
+ 155311 string characters out of 6137849
+ 255212 words of memory out of 5000000
  12216 multiletter control sequences out of 15000+600000
  12598 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,10n,52p,528b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.dvi (2 pages, 20144 bytes).
+Output written on poster.dvi (1 page, 18652 bytes).

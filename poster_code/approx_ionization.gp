@@ -15,5 +15,5 @@ set nolabel
 set title '\textbf{~~~2-36-2~~~$\mathbf{4 \times 10^{14}\,}$W/cm$^2$~~~S-S}'
 set key center right spacing 1.3
 plot datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):48 t '~~Ionization' w l lt 1 lc rgb "#009900" lw 2 , \
-	datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):($37 + $38) t 'n $\le 2$' w l lt 1 lc 1 lw 2 , \
-	datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):($47 - ($37 + $38)) t 'n $> 2$' w l lt 1 lc 3 lw 2 
+	datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):($2 + $3 + $4) t 'n $\le 2$' w l lt 1 lc 1 lw 2 , \
+	datadir . '/S-s__2-36-2__1.0676d-1__0350/overlap.out' u ($1*.000120622):($47 - ($2 + $3 + $4)) t 'n $> 2$' w l lt 1 lc 3 lw 2 

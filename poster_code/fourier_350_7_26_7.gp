@@ -18,8 +18,8 @@ set title '\textbf{???}'
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/Pulse_s-s_7-26-7-350/fieldFT.out' u 2:5 t '\tt S-S' w l lt 1 lc 3 lw 2,\
-     datadir . '/Pulse_t-t_7-26-7-350/fieldFT.out' u 2:5 t '\tt T-T' w l lt 1 lc 1 lw 2
+     datadir . '/Pulse_t-t_7-26-7-350/fieldFT.out' u 2:5 t '\tt L-L' w l lt 1 lc 1 lw 2
 
 #plot datadir . '/Pulse_g-g_7-26-7-350/fieldFT.out' u 2:5 t '\tt G-G' w l lt 1 lc 1 lw 2,\
 #     datadir . '/Pulse_s-s_7-26-7-350/fieldFT.out' u 2:5 t '\tt S-S' w l lt 1 lc rgb "#009900" lw 2,\
-#     datadir . '/Pulse_t-t_7-26-7-350/fieldFT.out' u 2:5 t '\tt T-T' w l lt 1 lc 3 lw 2
+#     datadir . '/Pulse_t-t_7-26-7-350/fieldFT.out' u 2:5 t '\tt L-L' w l lt 1 lc 3 lw 2

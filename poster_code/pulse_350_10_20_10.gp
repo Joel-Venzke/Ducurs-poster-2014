@@ -15,7 +15,7 @@ set title '\bf 10-20-10~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$'
 set xzeroaxis
 set key spacing 1.5 top center
 plot datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:5 t '\tt S-S' w l lt 1 lc 3 lw 2, \
-     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:5 t '\tt T-T' w l lt 1 lc 1 lw 2
+     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:5 t '\tt L-L' w l lt 1 lc 1 lw 2
 set notitle
 set origin 0.64,0.595
 set yr [-0.12:0.12]
@@ -31,7 +31,7 @@ set xlabel ''
 set size 0.32
 set nokey
 plot datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt S-S' w l lt 1 lc 3 lw 2,\
-     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt T-T' w l lt 1 lc 1  lw 2, \
+     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt L-L' w l lt 1 lc 1  lw 2, \
      datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:($3 *-.10676) t '' w l lt 1 lc 3 lw 2,\
      datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *-.10676) t '' w l lt 1 lc 1  lw 2, \
      datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:5 t '' w l lt 1 lc 3 lw 2, \
@@ -50,7 +50,7 @@ set xlabel ''
 set size 0.32
 set nokey
 plot datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt S-S' w l lt 1 lc 3 lw 2,\
-     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt T-T' w l lt 1 lc 1  lw 2, \
+     datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *.10676) t '\footnotesize \tt L-L' w l lt 1 lc 1  lw 2, \
      datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:($3 *-.10676) t '' w l lt 1 lc 3 lw 2,\
      datadir . '/Pulse_t-t_10-20-10-350/pulse.out' u 2:($3 *-.10676) t '' w l lt 1 lc 1  lw 2, \
      datadir . '/Pulse_s-s_10-20-10-350/pulse.out' u 2:5 t '' w l lt 1 lc 3 lw 2, \
