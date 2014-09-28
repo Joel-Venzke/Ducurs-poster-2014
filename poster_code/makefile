@@ -4,9 +4,9 @@ FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
 			spectrum_350_3_34_3_highin spectrum_350_4_32_4_highin \
 			spectrum_350_10_20_10_highin \
 			overlap_350_4 overlap_350_1 overlap_350_025 \
-			approx_ionization fourier_350_2_36_2 pulse_350_2_36_2 \
+			approx_ionization fourier_350_2_36_2 pulse_350_2_36_2 displacement_350_2_36_2\
 			fourier_350_7_26_7 pulse_350_7_26_7 \
-			fourier_350_10_20_10 pulse_350_10_20_10 \
+			fourier_350_10_20_10 pulse_350_10_20_10 displacement_350_10_20_10\
 			fourier_350_20_0_20 pulse_350_20_0_20 \
 
 			
