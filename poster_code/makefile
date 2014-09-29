@@ -1,9 +1,9 @@
 POSTER 	= 	poster
-FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_lowin \
-			spectrum_375_2_36_2_highin spectrum_375_2_36_2_lowin \
+FIGURES	=	spectrum_350_2_36_2_highin spectrum_350_2_36_2_midin spectrum_350_2_36_2_lowin \
+			spectrum_375_2_36_2_highin spectrum_375_2_36_2_midin spectrum_375_2_36_2_lowin \
 			spectrum_350_3_34_3_highin spectrum_350_4_32_4_highin \
-			spectrum_350_10_20_10_highin spectrum_350_10_20_10_lowin\
-			spectrum_375_10_20_10_highin spectrum_375_10_20_10_lowin\
+			spectrum_350_10_20_10_highin spectrum_350_10_20_10_midin spectrum_350_10_20_10_lowin\
+			spectrum_375_10_20_10_highin spectrum_375_10_20_10_midin spectrum_375_10_20_10_lowin\
 			overlap_350_4 overlap_350_1 overlap_350_025 \
 			approx_ionization fourier_350_2_36_2 pulse_350_2_36_2 displacement_350_2_36_2\
 			fourier_350_7_26_7 pulse_350_7_26_7 \

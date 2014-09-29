@@ -19,4 +19,4 @@ set title '\textbf{10-20-10~~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$~~~10.2 eV
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/S-s__10-20-10__1.0676d-1__0375/betas.out' u 1:2 t '\tt S-S' w l lt 1 lc 1 lw 2,\
-     datadir . '/T-t__10-20-10__1.0676d-1__0375/betas.out' u 1:2 t '\tt L-L' sm cs w l lt 1 lc 7 lw 2
+     datadir . '/T-t__10-20-10__1.0676d-1__0375/betas.out' u 1:2 t '\tt L-L' sm cs w l lt 1 lc 3 lw 2
