@@ -14,7 +14,7 @@ set xr [0.0:0.7]
 set mxtics 5
 #set format x '%4.2f'
 set nolabel
-set title '\bf 10-20-10~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$'
+set title '\textbf{10-20-10~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$~~~0.350 a.u.}' #'\bf 10-20-10~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$'
 set key top right spacing 2.2
 #set nokey
 plot datadir . '/Pulse_s-s_10-20-10-350/fieldFT.out' u 2:5 t '\tt S-S' w l lt 1 lc 3 lw 2,\

@@ -11,7 +11,7 @@ set yr [-0.12:0.24]
 set ytics -0.15,0.05,0.12
 set mytics 5
 set format y '%5.2f'
-set title '\bf 2-36-2~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$'
+set title '\textbf{2-36-2~~~$\mathbf{4.0 \times 10^{14}\,}$W/cm$^2$~~~0.350 a.u.}' #'\bf 2-36-2~~~~~ 4.0 x 10$^{\bf 14}\,$W/cm$^{\bf 2}$'
 set xzeroaxis
 set key spacing 1.5 top center
 plot datadir . '/Pulse_s-s_2-36-2-350/pulse.out' u 2:5 t '\tt S-S' w l lt 1 lc 3 lw 2, \
