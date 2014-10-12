@@ -18,5 +18,5 @@ set nolabel
 set title '\textbf{2-36-2~~~~$\mathbf{0.25 \times 10^{14}\,}$W/cm$^2$~~~10.2 eV}' 
 set key top right spacing 2.2
 #set nokey
-plot datadir . '/S-s__2-36-2__0.2669d-1__0375/betas.out' u 1:2 t '\tt S-S' w l lt 1 lc 1 lw 2,\
-     datadir . '/T-t__2-36-2__0.2669d-1__0375/betas.out' u 1:2 t '\tt L-L' sm cs w l lt 1 lc 3 lw 2
+plot datadir . '/S-s__2-36-2__0.2669d-1__0375/betas.out' u 1:2 t '\tt S-S' w l lt 1 lc 3 lw 2,\
+     datadir . '/T-t__2-36-2__0.2669d-1__0375/betas.out' u 1:2 t '\tt L-L' sm cs w l lt 1 lc 1 lw 2
